@@ -49,7 +49,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
               className="px-4 py-2 rounded-lg bg-white/10 hover:bg-white/20 text-white text-xs sm:text-sm font-bold border border-white/20 backdrop-blur-sm transition-all flex items-center gap-2"
             >
               <Phone className="w-3.5 h-3.5 text-[#F5A623]" />
-              <span>Call +17499320650</span>
+              <span>Call +917499320650</span>
             </a>
             <button
               onClick={onBookNowClick}

@@ -22,7 +22,7 @@ export const BookingConfirmationModal: React.FC<BookingConfirmationModalProps> =
     `Please confirm the vehicle availability and lowest fare quote. Thank you!`
   );
 
-  const whatsappDirectLink = `https://wa.me/17499320650?text=${whatsappMsg}`;
+  const whatsappDirectLink = `https://wa.me/917499320650?text=${whatsappMsg}`;
 
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto bg-slate-900/70 backdrop-blur-xs flex items-center justify-center p-4">

@@ -290,7 +290,7 @@ export const ContactSection: React.FC = () => {
 
                 <div className="pt-3 flex flex-col sm:flex-row justify-center gap-3">
                   <a
-                    href={`https://wa.me/17499320650?text=${encodeURIComponent(
+                    href={`https://wa.me/917499320650?text=${encodeURIComponent(
                       `Hello Shiv Shakti Taxi Services! I just submitted an inquiry on your website: ${name} (${phone}) for ${serviceType}. Please confirm availability.`
                     )}`}
                     target="_blank"
