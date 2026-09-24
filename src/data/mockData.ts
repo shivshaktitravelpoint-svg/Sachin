@@ -10,9 +10,9 @@ export const COMPANY_INFO = {
   name: 'Shiv Shakti Taxi Services',
   tagline: 'Quick & Safe And Budget Cab',
   subTagline: 'Search Best Cab Now | Quick, Simple & Easy | Safety Assured, Lowest Fare',
-  phone: '+17499320650',
+  phone: '+917499320650',
   phoneFormatted: '+1 (749) 932-0650',
-  whatsappUrl: 'https://wa.me/17499320650',
+  whatsappUrl: 'https://wa.me/917499320650',
   email: 'shivshaktitravelpoint@gmail.com',
   address: 'Food Park Road, Shinde Wasti, Ravet, PCMC, Pune 412101, India',
   serviceHubs: 'Somnath, Dwarka, Rajkot, Ahmedabad, Veraval, Jamnagar, Diu & Pune',
@@ -429,7 +429,7 @@ export const FAQS: FaqItem[] = [
   {
     id: 'faq-4',
     question: 'What is the booking and confirmation process? Do I need to pay online right now?',
-    answer: 'No online payment or credit card is required to submit an inquiry! Simply fill out our website booking widget or click to call/WhatsApp (+17499320650). Our customer representative will immediately confirm vehicle availability, share driver details, and agree upon your pickup time and total fare.',
+    answer: 'No online payment or credit card is required to submit an inquiry! Simply fill out our website booking widget or click to call/WhatsApp (+917499320650). Our customer representative will immediately confirm vehicle availability, share driver details, and agree upon your pickup time and total fare.',
     category: 'Booking'
   },
   {

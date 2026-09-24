@@ -20,7 +20,7 @@ export const RoutePackagesGrid: React.FC<RoutePackagesGridProps> = ({ onSelectRo
     const text = encodeURIComponent(
       `Hello Shiv Shakti Taxi Services! I want to inquire about the *${pkg.title}* package (${pkg.distanceKm} KM, approx ${pkg.estDuration}). Please confirm car availability and exact fare quotation.`
     );
-    return `https://wa.me/17499320650?text=${text}`;
+    return `https://wa.me/917499320650?text=${text}`;
   };
 
   return (
