@@ -1,0 +1,6 @@
+{
+  "name": "Shiv Shakti Taxi Services",
+  "description": "Trusted taxi and pilgrimage tour service across Gujarat. Reliable cabs for Somnath, Dwarka, outstation journeys, and airport transfers with transparent per-KM pricing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
