@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { MapPin, Calendar, Clock, Phone, AlertCircle, ArrowRightLeft, Car, Check } from 'lucide-react';
 import { ServiceTab, TripType, BookingInquiry } from '../types';
-import { GUJARAT_CITIES, VEHICLES } from '../data/mockData';
+import { GUJARAT_CITIES, VEHICLES, QUICK_ROUTES } from '../data/mockData';
 
 interface BookingFormWidgetProps {
   onFormSubmitted: (inquiry: BookingInquiry) => void;
@@ -18,8 +18,8 @@ export const BookingFormWidget: React.FC<BookingFormWidgetProps> = ({
 }) => {
   const [serviceTab, setServiceTab] = useState<ServiceTab>('outstation');
   const [tripType, setTripType] = useState<TripType>('one-way');
-  const [fromCity, setFromCity] = useState(initialFromCity || 'Somnath');
-  const [toCity, setToCity] = useState(initialToCity || 'Dwarka');
+  const [fromCity, setFromCity] = useState(initialFromCity || 'Pune');
+  const [toCity, setToCity] = useState(initialToCity || 'Mumbai');
   const [date, setDate] = useState('');
   const [time, setTime] = useState('08:00');
   const [returnDate, setReturnDate] = useState('');
@@ -58,11 +58,11 @@ export const BookingFormWidget: React.FC<BookingFormWidgetProps> = ({
     if (tab === 'local') {
       setToCity('Local Sightseeing (8Hr / 80KM)');
     } else if (tab === 'airport') {
-      setFromCity('Ahmedabad Airport (SVPIA)');
-      setToCity('Somnath / Dwarka');
+      setFromCity('Pune Airport (Lohegaon)');
+      setToCity('PCMC (Pimpri-Chinchwad)');
     } else {
-      setFromCity('Somnath');
-      setToCity('Dwarka');
+      setFromCity('Pune');
+      setToCity('Mumbai');
     }
   };
 
@@ -374,13 +374,7 @@ export const BookingFormWidget: React.FC<BookingFormWidgetProps> = ({
         {/* Quick Route Shortcuts for convenience */}
         <div className="flex flex-wrap items-center gap-2 pt-1">
           <span className="text-xs text-slate-500 font-medium">Quick Routes:</span>
-          {[
-            { from: 'Somnath', to: 'Dwarka' },
-            { from: 'Ahmedabad', to: 'Somnath' },
-            { from: 'Rajkot', to: 'Somnath' },
-            { from: 'Somnath', to: 'Veraval' },
-            { from: 'Ahmedabad', to: 'Statue of Unity' }
-          ].map((r, idx) => (
+          {QUICK_ROUTES.map((r, idx) => (
             <button
               key={idx}
               type="button"
@@ -423,7 +417,7 @@ export const BookingFormWidget: React.FC<BookingFormWidgetProps> = ({
         </div>
       </form>
 
-      {/* Datalist for Gujarat cities */}
+      {/* Datalist for service cities */}
       <datalist id="gujarat-cities">
         {GUJARAT_CITIES.map((city) => (
           <option key={city} value={city} />

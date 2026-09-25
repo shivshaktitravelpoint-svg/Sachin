@@ -18,8 +18,8 @@ import { BookingInquiry } from './types';
 export default function App() {
   const [activePage, setActivePage] = useState<'home' | 'about' | 'driver' | 'contact'>('home');
   const [selectedVehicleId, setSelectedVehicleId] = useState<string | null>('swift-dzire');
-  const [initialFromCity, setInitialFromCity] = useState<string>('Somnath');
-  const [initialToCity, setInitialToCity] = useState<string>('Dwarka');
+  const [initialFromCity, setInitialFromCity] = useState<string>('Pune');
+  const [initialToCity, setInitialToCity] = useState<string>('Mumbai');
   const [confirmedInquiry, setConfirmedInquiry] = useState<BookingInquiry | null>(null);
 
   // Scroll to booking form widget

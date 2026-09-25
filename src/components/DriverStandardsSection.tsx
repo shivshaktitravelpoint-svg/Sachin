@@ -101,7 +101,7 @@ export const DriverStandardsSection: React.FC<DriverStandardsSectionProps> = ({
                 </div>
                 <div className="flex items-start gap-2 text-xs text-slate-700">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
-                  <span><strong>Saurashtra Route Mastery:</strong> Thorough understanding of bypasses, temple timings, and hospital access points.</span>
+                  <span><strong>Maharashtra Route Mastery:</strong> Thorough knowledge of the Mumbai-Pune Expressway, ghat sections, temple timings, and hospital access points.</span>
                 </div>
                 <div className="flex items-start gap-2 text-xs text-slate-700">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
@@ -115,7 +115,7 @@ export const DriverStandardsSection: React.FC<DriverStandardsSectionProps> = ({
               <UserCheck className="w-10 h-10 text-[#F5A623] mx-auto" />
               <h4 className="text-lg font-bold">Are You An Experienced Commercial Driver?</h4>
               <p className="text-xs text-slate-300">
-                Join Shiv Shakti’s trusted Gujarat network. Enjoy dignified pay, timely settlements, and respected pilgrimage tours.
+                Join Shiv Shakti’s trusted Pune network. Enjoy dignified pay, timely settlements, and respected pilgrimage tours.
               </p>
               <button
                 onClick={() => setShowRecruitmentModal(true)}
@@ -131,7 +131,7 @@ export const DriverStandardsSection: React.FC<DriverStandardsSectionProps> = ({
         <div className="flex flex-col sm:flex-row items-center justify-between p-6 bg-red-50 border border-red-200 rounded-2xl gap-4">
           <div>
             <h4 className="text-lg font-extrabold text-[#1A3A5C]">
-              Ready for a Safe, Dignified Gujarat Journey?
+              Ready for a Safe, Dignified Journey from Pune?
             </h4>
             <p className="text-xs sm:text-sm text-slate-600">
               Book your sanitized cab with an experienced local driver today.

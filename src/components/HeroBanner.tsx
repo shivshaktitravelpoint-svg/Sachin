@@ -26,7 +26,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
       <div className="absolute inset-0 z-0">
         <img
           src={heroSomnathImg}
-          alt="Somnath Temple Gujarat Pilgrimage Heritage by the Arabian Sea"
+          alt="Shiv Shakti Taxi Service – Pune outstation and pilgrimage cabs"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center scale-105 filter brightness-90"
         />
@@ -40,7 +40,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
         <div className="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4">
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 px-3.5 py-1.5 rounded-full text-white text-xs font-semibold self-start">
             <span className="w-2 h-2 rounded-full bg-[#F5A623] animate-pulse" />
-            <span>Gujarat's Most Trusted Pilgrimage & Outstation Taxi Network</span>
+            <span>Pune&apos;s Most Trusted Local & Outstation Taxi Network</span>
           </div>
 
           <div className="flex items-center gap-3 self-start md:self-auto">
@@ -83,7 +83,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
             <span className="text-white/30 hidden sm:inline">·</span>
             <span className="flex items-center gap-1.5">
               <Clock className="w-4 h-4 text-cyan-400" />
-              Instant Somnath & Dwarka Pickup
+              24x7 Pune & PCMC Pickup
             </span>
           </div>
         </div>

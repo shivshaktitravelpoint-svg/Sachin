@@ -31,13 +31,13 @@ export const RoutePackagesGrid: React.FC<RoutePackagesGridProps> = ({ onSelectRo
           <div>
             <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#C41E3A] mb-2">
               <Compass className="w-3.5 h-3.5" />
-              <span>Gujarat & Outstation Tours</span>
+              <span>Pune & Outstation Tours</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-black text-[#1A3A5C] tracking-tight">
               Book Our Taxi Packages
             </h2>
             <p className="text-slate-600 text-sm sm:text-base mt-1 max-w-2xl">
-              Specialized routes connecting holy Jyotirlingas, coastal tourist destinations, and commercial expressways with fixed per-KM rates and optional one-way savings.
+              Vehicle rates for all Pune routes, outstation tours, and pilgrimage yatras from Pune and Mumbai. Choose Dzire, Ertiga, Innova, Tempo Traveller, or Bus.
             </p>
           </div>
 
@@ -46,7 +46,7 @@ export const RoutePackagesGrid: React.FC<RoutePackagesGridProps> = ({ onSelectRo
             {[
               { id: 'all', label: 'All Routes' },
               { id: 'pilgrimage', label: 'Pilgrimage Yatras' },
-              { id: 'coastal', label: 'Coastal & Diu' },
+              { id: 'coastal', label: 'Goa & Konkan' },
               { id: 'intercity', label: 'Intercity Express' },
               { id: 'airport', label: 'Airport Transfers' }
             ].map((tab) => (

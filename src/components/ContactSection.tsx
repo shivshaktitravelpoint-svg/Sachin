@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, MessageSquare, Send, CheckCircle2, Shield, AlertCircle } from 'lucide-react';
-import { COMPANY_INFO } from '../data/mockData';
+import { COMPANY_INFO, OPERATING_HUBS } from '../data/mockData';
 
 export const ContactSection: React.FC = () => {
   const [name, setName] = useState('');
@@ -130,10 +130,10 @@ export const ContactSection: React.FC = () => {
             {/* Static Service Area Representation */}
             <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
               <h4 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">
-                Key Operating Hubs (Gujarat & Beyond)
+                Key Operating Hubs (Pune & Beyond)
               </h4>
               <div className="flex flex-wrap gap-1.5 text-xs text-slate-700">
-                {['Somnath', 'Dwarka', 'Veraval', 'Rajkot', 'Ahmedabad', 'Jamnagar', 'Junagadh', 'Sasan Gir', 'Porbandar', 'Diu', 'Bhuj', 'Statue of Unity', 'Pune', 'Mumbai'].map((hub, idx) => (
+                {OPERATING_HUBS.map((hub, idx) => (
                   <span key={idx} className="bg-slate-100 px-2.5 py-1 rounded-md font-medium text-slate-700">
                     {hub}
                   </span>
@@ -218,7 +218,7 @@ export const ContactSection: React.FC = () => {
                       onChange={(e) => setServiceType(e.target.value)}
                       className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-lg text-sm text-slate-900 focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#C41E3A]/40 focus:border-[#C41E3A]"
                     >
-                      <option value="Somnath - Dwarka Pilgrimage">Somnath - Dwarka Pilgrimage</option>
+                      <option value="Pune Pilgrimage Yatra">Pune Pilgrimage Yatra</option>
                       <option value="Outstation One-Way Taxi">Outstation One-Way Taxi</option>
                       <option value="Outstation Round Trip">Outstation Round Trip</option>
                       <option value="Airport Pickup / Drop">Airport Pickup / Drop</option>
@@ -250,7 +250,7 @@ export const ContactSection: React.FC = () => {
                     rows={4}
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
-                    placeholder="e.g. We are 5 passengers needing an Ertiga or Innova from Rajkot Railway Station to Somnath Temple on 15th morning..."
+                    placeholder="e.g. We are 5 passengers needing an Ertiga or Innova from Ravet, Pune to Shirdi on 15th morning..."
                     className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-lg text-sm text-slate-900 focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#C41E3A]/40 focus:border-[#C41E3A]"
                   />
                 </div>
