@@ -21,7 +21,7 @@ export const FleetShowcase: React.FC<FleetShowcaseProps> = ({ onSelectVehicle })
 
   const generateWhatsAppLink = (vehicle: Vehicle) => {
     const text = encodeURIComponent(
-      `Hello Shiv Shakti Taxi Services! I am interested in booking the *${vehicle.name} (${vehicle.seatingCapacity})* at ₹${vehicle.perKmRate}/KM for my upcoming journey in Gujarat. Please share availability and tariff details.`
+      `Hello Shiv Shakti Taxi Services! I am interested in booking the *${vehicle.name} (${vehicle.seatingCapacity})* at ₹${vehicle.perKmRate}/KM for my upcoming journey from Pune. Please share availability and tariff details.`
     );
     return `https://wa.me/917499320650?text=${text}`;
   };

@@ -12,7 +12,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onBookNowClick
       id: 'outstation',
       icon: Compass,
       title: 'Outstation Cabs (One-Way & Round Trip)',
-      description: 'Reliable doorstep taxi service across Gujarat, Maharashtra & Rajasthan. Never pay return fare for one-way journeys.',
+      description: 'Reliable doorstep taxi service from Pune & PCMC across Maharashtra, Goa & beyond. Never pay return fare for one-way journeys.',
       rate: 'Starting ₹13/KM',
       badge: 'Best Value',
       points: ['Doorstep pickup & drop', '24/7 highway assistance', 'Clean AC vehicles', 'Luggage support']
@@ -20,8 +20,8 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onBookNowClick
     {
       id: 'pilgrimage',
       icon: Landmark,
-      title: 'Saurashtra & Jyotirlinga Pilgrimage Tours',
-      description: 'Devotional travel packages for Somnath, Dwarka, Girnar, Ambaji, and Nageshwar Jyotirlinga with customized temple itineraries.',
+      title: 'Maharashtra & Jyotirlinga Yatra Tours',
+      description: 'Yatra packages from Pune & Mumbai to Bhimashankar, Trimbakeshwar, Shirdi, Ellora, Mahalaxmi & Jotiba, and all Jyotirlingas.',
       rate: 'Fixed Packages Available',
       badge: 'Devotee Choice',
       points: ['Darshan timings coordination', 'Senior citizen pace', 'Temple pass assistance', 'Experienced guide chauffeurs']
@@ -30,7 +30,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onBookNowClick
       id: 'airport',
       icon: Plane,
       title: 'Airport Pick & Drop Transfers',
-      description: 'Fixed-rate airport taxi for Ahmedabad (SVPIA), Rajkot Hirasar, Jamnagar, and Diu airports with complimentary flight tracking.',
+      description: 'Fixed-rate airport taxi for Pune (Lohegaon) and Mumbai airports with complimentary flight tracking.',
       rate: 'Starting ₹1,499 Flat / KM',
       badge: 'Zero Waiting Charge',
       points: ['Complimentary waiting 45m', 'Name board meet & greet', 'Luggage assistance', 'Early morning rides']

@@ -56,7 +56,7 @@ export const BookingConfirmationModal: React.FC<BookingConfirmationModalProps> =
               Thank you! Our team will call you shortly to confirm your booking.
             </p>
             <p className="text-xs text-slate-500 mt-1">
-              Your pickup details have been dispatched to our Somnath / Saurashtra dispatch desk.
+              Your pickup details have been dispatched to our Pune / PCMC dispatch desk.
             </p>
           </div>
 

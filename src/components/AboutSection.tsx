@@ -19,7 +19,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onBookNowClick, onNa
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white bg-slate-200">
               <img
                 src={heroSomnathImg}
-                alt="Somnath Temple Heritage Backdrop"
+                alt="Temple heritage backdrop for pilgrimage yatras"
                 referrerPolicy="no-referrer"
                 className="w-full h-[360px] sm:h-[420px] object-cover object-center"
               />
@@ -30,7 +30,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onBookNowClick, onNa
                   Devoted Service Since 2012
                 </span>
                 <p className="text-base font-bold">
-                  Connecting Somnath, Dwarka & Saurashtra's Holy Shrines
+                  Connecting Pune to Maharashtra&apos;s Cities & Holy Shrines
                 </p>
               </div>
             </div>
@@ -74,11 +74,11 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onBookNowClick, onNa
             </div>
 
             <p className="text-base sm:text-lg text-slate-700 leading-relaxed">
-              Welcome to <strong>Shiv Shakti Tour & Travels</strong>, your go-to taxi service for a comfortable, safe, and reliable journey in Somnath and beyond. As a locally-rooted company with deep commitment to our community, we offer transportation tailored to your needs.
+              Welcome to <strong>Shiv Shakti Tour & Travels</strong>, your go-to taxi service for a comfortable, safe, and reliable journey in Pune, PCMC and beyond. As a locally-rooted company with deep commitment to our community, we offer transportation tailored to your needs.
             </p>
 
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-              Whether you are an elderly pilgrim embarking on the sacred Dwarka-Somnath Jyotirlinga circuit, an NRI family exploring the Rann of Kutch, or a business executive needing dependable airport transfers at Ahmedabad or Rajkot, our courteous chauffeurs and meticulously sanitized fleet ensure absolute peace of mind.
+              Whether you are an elderly pilgrim embarking on the Bhimashankar-Trimbakeshwar Jyotirlinga circuit, a family heading to Goa or Mahabaleshwar, or a business executive needing dependable airport transfers at Pune or Mumbai, our courteous chauffeurs and meticulously sanitized fleet ensure absolute peace of mind.
             </p>
 
             {/* 3 Core Value Pillars */}

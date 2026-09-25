@@ -25,12 +25,12 @@ export const Navbar: React.FC<NavbarProps> = ({ activePage, setActivePage, onBoo
           <div className="flex items-center gap-4 text-slate-300">
             <span className="flex items-center gap-1.5">
               <Shield className="w-3.5 h-3.5 text-[#F5A623]" />
-              <span className="hidden sm:inline">24x7 Gujarat Pilgrimage & Outstation Taxi</span>
-              <span className="sm:hidden">24x7 Gujarat Cabs</span>
+<span className="hidden sm:inline">24x7 Pune PCMC Cab Service</span>
+            <span className="sm:hidden">24x7 Pune Cabs</span>
             </span>
             <span className="hidden md:inline text-white/30">|</span>
             <span className="hidden md:inline text-slate-300">
-              Somnath · Dwarka · Ahmedabad · Rajkot · Airport Transfers
+              Pune · PCMC · Mumbai · Nashik · Kolhapur · Airport Transfers
             </span>
           </div>
           <div className="flex items-center gap-4 text-xs">

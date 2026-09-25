@@ -34,7 +34,7 @@ export const Footer: React.FC<FooterProps> = ({ setActivePage, onSelectRoute }) 
             </div>
 
             <p className="text-xs text-slate-300 leading-relaxed">
-              Gujarat’s trusted pilgrimage taxi service provider. Specializing in comfortable, safe, and transparent per-KM journeys connecting Somnath, Dwarka, Ahmedabad, Rajkot, and all Indian cities.
+              24x7 Pune PCMC cab service. Comfortable, safe, and transparent per-KM journeys connecting Pune, Mumbai, Nashik, Kolhapur, Sambhaji Nagar, Goa, and all Indian cities.
             </p>
 
             <div className="pt-2 flex items-center gap-3">
@@ -115,7 +115,7 @@ export const Footer: React.FC<FooterProps> = ({ setActivePage, onSelectRoute }) 
                   href="#packages-section"
                   className="hover:text-white transition-colors block"
                 >
-                  Gujarat Tour Packages
+                  Pune Tour Packages
                 </a>
               </li>
             </ul>
@@ -124,10 +124,10 @@ export const Footer: React.FC<FooterProps> = ({ setActivePage, onSelectRoute }) 
           {/* Popular Pilgrimage Packages */}
           <div>
             <h4 className="text-sm font-bold uppercase tracking-wider text-white mb-4 border-b border-white/10 pb-2">
-              Popular Gujarat Yatras
+              Popular Pune Yatras
             </h4>
             <ul className="space-y-2 text-xs">
-              {ROUTE_PACKAGES.slice(0, 5).map((pkg) => (
+              {ROUTE_PACKAGES.filter((pkg) => pkg.category === 'pilgrimage').map((pkg) => (
                 <li key={pkg.id}>
                   <button
                     onClick={() => {

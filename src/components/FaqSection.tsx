@@ -69,7 +69,7 @@ export const FaqSection: React.FC = () => {
           <div>
             <h4 className="font-bold text-slate-900 text-base">Have a customized multi-city requirement?</h4>
             <p className="text-xs text-slate-500 mt-0.5">
-              Talk directly to our travel manager for customized Somnath-Dwarka itineraries.
+              Talk directly to our travel manager for customized Pune outstation and yatra itineraries.
             </p>
           </div>
           <div className="flex items-center gap-3">

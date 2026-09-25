@@ -17,7 +17,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onBookNowClick, onContactC
         <div className="absolute inset-0 z-0 opacity-25">
           <img
             src={heroSomnathImg}
-            alt="Somnath Shore"
+            alt="Temple heritage backdrop"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover"
           />
@@ -30,7 +30,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onBookNowClick, onContactC
             About Shiv Shakti Taxi Services
           </h1>
           <p className="text-base sm:text-lg text-slate-200 max-w-2xl mx-auto">
-            Providing reliable, safe, and transparent transportation across Somnath, Dwarka, and Western India for over a decade.
+            Providing reliable, safe, and transparent transportation across Pune, PCMC, Maharashtra, and Western India for over a decade.
           </p>
         </div>
       </section>
@@ -43,20 +43,20 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onBookNowClick, onContactC
               Our Origins
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#1A3A5C]">
-              Born on the Sacred Shores of Somnath & Saurashtra
+              Rooted in Pune, Serving All of Maharashtra
             </h2>
             <p className="text-sm text-slate-600 leading-relaxed">
-              Founded over 12 years ago, <strong>Shiv Shakti Taxi Services</strong> began with a single mission: to provide pilgrims arriving at the sacred shrines of Somnath Jyotirlinga and Dwarkadhish Dham with dignified, punctual, and transparent transportation.
+              Founded over 12 years ago, <strong>Shiv Shakti Taxi Services</strong> began with a single mission: to provide travellers and pilgrims from Pune and PCMC with dignified, punctual, and transparent transportation to every corner of Maharashtra and beyond.
             </p>
             <p className="text-sm text-slate-600 leading-relaxed">
-              Unlike generic corporate cab aggregators who rely on surge pricing and unfamiliar drivers, our network is anchored by veteran local chauffeurs who revere these routes and treat every devotee like family. Today, we have served over 45,000 successful trips across Gujarat, Maharashtra, and Rajasthan.
+              Unlike generic corporate cab aggregators who rely on surge pricing and unfamiliar drivers, our network is anchored by veteran local chauffeurs who revere these routes and treat every devotee like family. Today, we have served over 45,000 successful trips across Maharashtra, Goa, and Gujarat.
             </p>
           </div>
 
           <div className="rounded-2xl overflow-hidden shadow-xl border border-slate-200">
             <img
               src={dwarkaImg}
-              alt="Dwarka Highway Pilgrimage Route"
+              alt="Maharashtra highway pilgrimage route"
               referrerPolicy="no-referrer"
               className="w-full h-72 object-cover"
             />
@@ -122,7 +122,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onBookNowClick, onContactC
             <span>Service Coverage Area</span>
           </div>
           <h3 className="text-xl font-bold text-[#1A3A5C]">
-            Operating Hubs Across Gujarat & Western India
+            Operating Hubs Across Pune & Maharashtra
           </h3>
           <p className="text-xs sm:text-sm text-slate-600">
             We operate outstation and pilgrimage taxi services across all major cities, railway stations, and airports:
@@ -142,7 +142,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onBookNowClick, onContactC
         {/* Conversion CTA */}
         <div className="p-8 rounded-2xl bg-[#1A3A5C] text-white flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
           <div>
-            <h4 className="text-2xl font-black">Plan Your Gujarat Journey With Us</h4>
+            <h4 className="text-2xl font-black">Plan Your Pune Journey With Us</h4>
             <p className="text-xs sm:text-sm text-slate-300 mt-1">
               Call our 24/7 travel desk for customized itineraries and lowest per-KM estimates.
             </p>
